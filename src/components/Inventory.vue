@@ -24,6 +24,7 @@
     /* Seondary BG */
 
     background: #262626;
+    
     /* Primary Border */
 
     border: 1px solid #4D4D4D;
