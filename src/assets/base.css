@@ -60,3 +60,12 @@ body {
 .primary-BORDER {
   border: 1px solid var(--color-border);
 }
+.br-4{
+  border-radius: 4px;
+}
+.br-8{
+  border-radius: 8px;
+}
+.br-12{
+  border-radius: 12px;
+}
