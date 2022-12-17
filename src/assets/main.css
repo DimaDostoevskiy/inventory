@@ -1,11 +1,18 @@
 @import './base.css';
 
 #app {
-  position: relative;
   width: 850px;
   min-width: 850px;
   height: 660px;
   min-height: 660px;
   margin: 0 auto;
-  font-weight: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-items: start;
+  grid-gap: 24px;
+
+  margin: 50px auto 0 auto;
+  padding: 32px;
 }

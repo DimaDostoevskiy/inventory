@@ -1,33 +1,56 @@
 <template>
-    <div class="inventory">
+    <div class="inventory seondary-BG">
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
+        <div class="inventory__slot"></div>
 
     </div>
 </template>
 
 <style scoped>
 .inventory {
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
     width: 525px;
     height: 500px;
-    left: 292px;
-    top: 32px;
 
-    /* Seondary BG */
+    border-top: 1px solid #4D4D4D;
+    border-left: 1px solid #4D4D4D;
 
-    background: #262626;
-    
-    /* Primary Border */
-
-    border: 1px solid #4D4D4D;
     border-radius: 12px;
+}
+.inventory__slot{
+    border-right: 1px solid #4D4D4D;
+    border-bottom: 1px solid #4D4D4D;
+    border-radius: 12px;
+    
 }
 </style>
