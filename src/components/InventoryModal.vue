@@ -1,6 +1,6 @@
 <template>
-  <div class="inventory-modal inventory-modal_active seondary-BG br-12">
-    <span class="inventory-modal__button_close">&times;</span>
+  <div class="inventory-modal seondary-BG br-12">
+    <span class="button-close">&times;</span>
     <div class="inventory-modal__image"></div>
     <div class="inventory-modal__line skeleton-BG"></div>
     <div class="inventory-modal__stub1 skeleton-BG br-8"></div>
@@ -10,8 +10,8 @@
     <div class="inventory-modal__stub3 skeleton-BG br-4"></div>
     <div class="inventory-modal__stub4 skeleton-BG br-4"></div>
     <div class="inventory-modal__line skeleton-BG"></div>
-    <div class="delete_button">
-      <div class="delete_button__text">Delete</div>
+    <div class="delete-button">
+      <div class="delete-button__text">Delete</div>
     </div>
   </div>
   <DeleteItemModalVue />
@@ -41,12 +41,11 @@ import DeleteItemModalVue from "./DeleteItemModal.vue";
 .inventory-modal_active {
   right: 33px;
 }
-.inventory-modal__button_close {
+.button-close {
   position: absolute;
   right: 10px;
   top: -5px;
-  font-size: 30px;
-  font-weight: 600;
+
 }
 .inventory-modal__image {
   margin: 55px auto 30px auto;
@@ -81,7 +80,7 @@ import DeleteItemModalVue from "./DeleteItemModal.vue";
   width: 80px;
   height: 10px;
 }
-.delete_button {
+.delete-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,10 +92,10 @@ import DeleteItemModalVue from "./DeleteItemModal.vue";
 
   background: #fa7272;
 }
-.delete_button:hover {
+.delete-button:hover {
   background: #ff8888;
 }
-.delete_button__text {
+.delete-button__text {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 400;

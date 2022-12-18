@@ -1,6 +1,6 @@
 :root {
   /*=====dark==============================================*/
-  
+
   --i-dark-bg: #262626;
   --i-dark-text: #cacaca;
   --i-dark-border: #4d4d4d;
@@ -33,6 +33,7 @@
   box-sizing: border-box;
   margin: 0;
   position: relative;
+  cursor: url('./cursor/cursor_basic.png'), auto;
 }
 
 body {
@@ -60,12 +61,12 @@ body {
 .primary-BORDER {
   border: 1px solid var(--color-border);
 }
-.br-4{
+.br-4 {
   border-radius: 4px;
 }
-.br-8{
+.br-8 {
   border-radius: 8px;
 }
-.br-12{
+.br-12 {
   border-radius: 12px;
 }

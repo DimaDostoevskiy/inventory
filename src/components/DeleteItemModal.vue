@@ -1,6 +1,6 @@
 <template>
   <div
-    class="delete-modal delete-modal_active seondary-BG primary-BORDER br-12"
+    class="delete-modal seondary-BG primary-BORDER br-12"
   >
     <input
       class="delete-modal__input seondary-BG primary-BORDER br-4"
@@ -37,7 +37,7 @@
   justify-content: start;
   flex-direction: column;
 
-  right: 0px;
+  right: 33px;
   bottom: -120px;
 
   width: 250px;

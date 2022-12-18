@@ -1,7 +1,7 @@
 <template>
   <div class="frame6 primary-BORDER seondary-BG">
     <input class="frame6__input primary-BORDER skeleton-BG" type="text" />
-    <span class="frame6__close">&times;</span>
+    <span class="button-close">&times;</span>
   </div>
 </template>
 
@@ -24,11 +24,9 @@
 
   border-radius: 12px;
 }
-.frame6__close {
+.button-close {
   position: absolute;
-  right: 10px;
-  top: 0;
-  font-size: 30px;
-  font-weight: 600;
+  right: 12px;
+  top: 0px;
 }
 </style>
