@@ -1,42 +1,41 @@
 <template>
-  <div class="inventory seondary-BG">
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-    <div class="inventory__slot"></div>
-
+  <div class="inventory seondary-BG br-12">
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
+    <div class="inventory__slot br-12"></div>
   </div>
-  <InnerModalVue />
+  <InventoryModalVue />
 </template>
 
 <script setup>
-import InnerModalVue from "./InnerModal.vue";
+import InventoryModalVue from "./InventoryModal.vue";
 </script>
 
 <style scoped>
@@ -47,15 +46,11 @@ import InnerModalVue from "./InnerModal.vue";
   width: 525px;
   height: 500px;
 
-    border-top: 1px solid #4D4D4D;
-    border-left: 1px solid #4D4D4D;
-
-  border-radius: 12px;
+  border-top: 1px solid #4d4d4d;
+  border-left: 1px solid #4d4d4d;
 }
-.inventory__slot{
-    border-right: 1px solid #4D4D4D;
-    border-bottom: 1px solid #4D4D4D;
-  border-radius: 12px;
-    
+.inventory__slot {
+  border-right: 1px solid #4d4d4d;
+  border-bottom: 1px solid #4d4d4d;
 }
 </style>
